@@ -9,11 +9,11 @@ use Illuminate\Database\Seeder;
 class UserSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      */
     public function run(): void
     {
-        User::factory()->create(['name' => '管理者', 'email' => 'admin@admin.com']);
+        User::factory()->create(['name' => __('Administrator'), 'email' => 'admin@admin.com']);
         User::factory()->count(10)->create();
     }
 }

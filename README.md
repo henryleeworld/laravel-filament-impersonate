@@ -1,4 +1,4 @@
-# Laravel 10 Filament 切換使用者
+# Laravel 11 Filament 切換使用者
 
 Filament 切換使用者採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，方便在使用者模型新增一個簡單的特徵機制，然後一鍵模擬為你的使用者之一。
 
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/BI9qq9f.gif)
+![](https://i.imgur.com/Ngpwulq.gif)
 > 使用者便可以快速切換為其他使用者帳戶，而不需要關閉正在執行的程式
