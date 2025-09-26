@@ -1,9 +1,9 @@
-# Laravel 11 Filament 切換使用者
+# Laravel 12 Filament 切換使用者
 
 Filament 切換使用者採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，方便在使用者模型新增一個簡單的特徵機制，然後一鍵模擬為你的使用者之一。
 
 ## 使用方式
-- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl，並重啟服務器。
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl 和 zip，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -21,19 +21,11 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
-```sh
-$ npm install
-```
-- 執行正式環境版本化資源管道並編譯。
-```sh
-$ npm run build
-```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/admin/login` 來進行登入，預設的電子郵件和密碼分別為 __admin@admin.com__ 和 __password__ 。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Ngpwulq.gif)
-> 使用者便可以快速切換為其他使用者帳戶，而不需要關閉正在執行的程式
+![](https://i.imgur.com/2dmXJNm.gif)
+> 使用者便可以快速切換為其他使用者帳號，而不需要關閉正在執行的程式
